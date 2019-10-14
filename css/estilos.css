@@ -1,5 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
 :root {
     --light-gray:#2b3032a1;
@@ -67,13 +68,11 @@ header .site-title {
 /* navegacion */ 
 
 .navbar-nav{
-    padding: 0.8em 0em;
-
-
+    padding: 0.5em 0em;
 }
 .navbar-nav .nav-link {
     font-size: 0.9em;
-    color:var(--light-gray) !important;
+    color:white !important;
 }
 .navbar-nav .nav-item .nav-link {
     padding:0 1.3em;
@@ -82,3 +81,65 @@ header .site-title {
 
 
 
+.container {
+    width: 100%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.container h2 {
+    background: #0062cc;
+    color:#fff;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+img{
+    width: 100%;
+}
+
+.product-buttom .fa {
+    color: #28a745;
+    font-size:10px;
+}
+
+.product-buttom h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-buttom h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.precio {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nombre_producto {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* ------------------------------------------------------------------------------------  */
+
+
+@media (max-width: 864px) {
+    #buscador {
+      display: none;
+    }
+  }
+
+  @media (max-width: 276px) {
+    #fb {
+      display: none;
+    }
+    #tw {
+        display: none;
+      }
+  }
+
+  

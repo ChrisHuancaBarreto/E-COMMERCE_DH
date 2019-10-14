@@ -11,11 +11,8 @@
     --sofia:"Sofia",cursive;
 }
 
-h1{
-    color:var(--primary-color);
 
-}
-h2 {
+h1 {
     color:white;
 }
 

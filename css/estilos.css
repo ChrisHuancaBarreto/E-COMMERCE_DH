@@ -65,7 +65,7 @@ header .site-title {
     color:white;
 }
 
-/* navegacion */ 
+/* navegacion */
 
 .navbar-nav{
     padding: 0.5em 0em;
@@ -145,7 +145,7 @@ img{
     }
   }
 
-/* boton-carrusel */  
+/* boton-carrusel */
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
     background-color: #2A2A2A;
@@ -177,4 +177,15 @@ img{
 
     }
 
-/*  FIN boton-carrusel */ 
+/*  FIN boton-carrusel */
+
+
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+  position: fixed;
+  margin: auto;
+  color: #fff;
+}

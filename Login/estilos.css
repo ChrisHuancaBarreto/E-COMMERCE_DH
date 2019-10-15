@@ -1,0 +1,27 @@
+body{
+  background-image: url(./img/negro2.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img{
+  margin-top: -50px;
+  margin-bottom: 35px;
+  width: 100px;
+  height: 100px;
+}
+
+.main-section{
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.modal-content{
+background-color: #3b4652;
+opacity: .95;
+padding: 0 20px;
+}

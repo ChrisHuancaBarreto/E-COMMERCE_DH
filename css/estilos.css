@@ -13,7 +13,7 @@
 }
 
 
-h1 {
+h1{
     color:white;
 }
 
@@ -81,14 +81,14 @@ header .site-title {
 
 
 
-.container {
-    width: 100%;
-    margin-top: 10%;
+main .container-fluid {
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-family: sans-serif;
     letter-spacing: 1px;
 }
 
-.container h2 {
+.container-fluid h2 {
     background: #0062cc;
     color:#fff;
     font-size: 24px;
@@ -127,19 +127,54 @@ img{
 /* ------------------------------------------------------------------------------------  */
 
 
-@media (max-width: 864px) {
+@media (max-width: 865px) {
     #buscador {
       display: none;
     }
-  }
-
-  @media (max-width: 276px) {
     #fb {
-      display: none;
-    }
-    #tw {
         display: none;
       }
+      #tw {
+          display: none;
+        }
   }
 
-  
+  @media (min-width: 864px) {
+    #buscador-mobile{
+        display: none;
+    }
+  }
+
+/* boton-carrusel */  
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background-color: #2A2A2A;
+    border-color: #2A2A2A;
+}
+
+.slick-prev, .slick-next {
+    font-size: 24px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 555;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: white;
+    background-color: #2A2A2A;
+    border-color: #2A2A2A;
+
+    }
+
+/*  FIN boton-carrusel */ 
